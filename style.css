@@ -1,0 +1,122 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images1/background.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position: relative;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+.logo {
+    width: 170px;
+    cursor: pointer;
+}
+
+nav ul li a{
+text-decoration: none;
+color: white;
+font-size: 17px;
+letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    color:rgba(174, 243, 197, 0.993)
+    
+}
+
+.text-box{
+margin-top: 10%;
+font-size: 22px;
+padding-left: 10px;
+}
+
+.text-box h1{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    font-size: 16px;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    background: mediumspringgreen;
+    color:rgb(8, 8, 8);
+    padding: 14px 40px;
+    cursor:pointer;
+    border-radius: 10px;
+
+}
+
+.btn1{
+    position: absolute;
+    right: 7%;
+    bottom: 60px;
+    display: flex;
+    align-items:center;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    padding: 20px 40px;
+    border-radius: 20px;
+    transition: background 0.2s;
+    border: 2px solid;
+}
+
+.btn1 img{
+    width: 25px;
+    margin-left: 15px;
+    animation: move 3s linear infinite;
+}
+
+@keyframes move{
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+.btn1:hover{
+    background: rgb(78, 228, 158);
+    color: black;
+}
+
+/* --ABOUT US-- */
+
+.about{
+    text-align: center;
+}
